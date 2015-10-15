@@ -21,6 +21,9 @@ nn:
     Title: 'Adresser'
     NoAddress: 'Det finnast inga adresse.'
     CreateNewTitle: 'Opprett ny adresse'
+  AddProductForm:
+    ADDTOCART: 'Kjøp'
+    Quantity: 'Mengd'
   Address:
     COUNTRY: 'Land'
     ADDRESS: 'Adresse'
@@ -37,6 +40,15 @@ nn:
     BillingAddress: 'Fakturaadresse'
     SaveNew: 'Lagre ny adresse'
     SaveDefaults: 'Lagre addressar'
+  CartForm:
+    UpdateCart: "Oppdater korg"
+  CartPage:
+    TITLE: "Handlekorg"
+  CartPage.ss:
+    CONTINUE: "Fortsetje å handla"
+    PROCEEDTOCHECKOUT: "Gå til kasse"
+  CheckoutForm:
+    PROCEED: "Gå til betaling"
   Member:
     # framework
     FIRSTNAME: 'Navn'
@@ -63,7 +75,7 @@ nn:
   Order_Content.ss:
     PRODUCT: 'Produkt'
     UNITPRICE: 'Pris'
-    QUANTITY: 'Antall'
+    QUANTITY: 'Mengd'
     TOTALPRICE: 'Total'
   Order_Content_ItemLine.ss:
     READMORE: 'Sjå meir om &quot;%s&quot;'
@@ -80,7 +92,7 @@ nn:
   OrderHistory:
     OrderReference: 'Referanse'
     OrderDate: 'Dato'
-    OrderItems: 'Antall'
+    OrderItems: 'Mengd'
     OrderTotal: 'Total'
     OrderStatus: 'Status'
     ViewOrder: 'vis bestilling'
@@ -94,3 +106,9 @@ nn:
     SHIPTO: 'Send til %s'
   WeightShippingModifier:
     TABLETITLE: 'Frakt (%f kg)'
+  TaxModifier:
+    SINGULARNAME: "Moms"
+    PLURALNAME: "Moms"
+    ATRATE: "%s"
+  GlobalTaxModifier:
+    INCLUDED: "(moms er inkludert)"

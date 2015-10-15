@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+
+cms/
+composer.lock
+framework/
+listsorter/
+omnipay/
+sqlquerylist/
+vendor/
+versioned-gridfield/
